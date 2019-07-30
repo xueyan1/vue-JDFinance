@@ -1,7 +1,7 @@
 <template>
     <section :class="[panelClass,cname]">
-        <h4>-{{ title }}-</h4>
-        <solt />
+        <h4>- {{ title }} -</h4>
+        <slot />
     </section>
 </template>
 <script>

@@ -26,3 +26,16 @@
 - js
 
   - viewport.js // 从 webpack 中 entry 中引入，解决机型适配的问题 参考[hotcss](https://github.com/xueyan1/hotcss)
+
+### 页面
+
+- 首页 home
+
+  - 组件
+
+    - hslider // 轮播图
+    - novice // 新手特权
+    - borrow // 极速借贷
+    - money // 理财精选
+    - product // 新品推荐
+    - life // 生活服务
