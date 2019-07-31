@@ -65,4 +65,4 @@
 - 测试验证
 - 发布上线
 
-![详细图]('/Users/liuyangongshouhu/Desktop/业务开发流程.png')
+![详细图]('/img/业务开发流程.png')
