@@ -1,11 +1,11 @@
 <template>
     <div>
         <Header />
-        <Mslider />
-        <Ada />
-        <Reward />
-        <Money />
-        <Adb />
+        <Sslider />
+        <Sign />
+        <Recommend />
+        <More />
+        <Footer />
         <Navbar cname="mfooter" />
     </div>
 </template>
@@ -14,22 +14,20 @@
 import Header from "../../js/public/header.vue"
 import Footer from "../../js/public/footer.vue"
 import Navbar from "../../js/public/navbar.vue"
-import Reward from "../home/reward.vue"
-import Money from "../home/money.vue"
-import Mslider from "./mslider.vue"
-import Ada from "./ada.vue"
-import Adb from "./adb.vue"
+import Sslider from "./sslider.vue"
+import Sign from "./sign.vue"
+import Recommend from "./recommend.vue"
+import More from "./more.vue"
 
 export default {
     components: {
         Header,
         Footer,
         Navbar,
-        Mslider,
-        Ada,
-        Adb,
-        Money,
-        Reward,
+        Sslider,
+        Sign,
+        Recommend,
+        More,
     },
     data() {
         return {

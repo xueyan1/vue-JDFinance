@@ -33,17 +33,17 @@ export default {
                 name: "赚钱",
             },
             {
-                herf: "home",
+                herf: "borrow",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t1/5291/40/14133/594/5bda5ca3E92d0e800/09ac81fa5a5c96ef.png?width=60&height=60",
-                name: "赚钱",
+                name: "借钱",
             },
             {
-                herf: "home",
+                herf: "save",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t1/3358/38/14064/816/5bda5cabEcb7eca8b/9bb064f1cda7ceba.png?width=60&height=60",
                 name: "省钱",
             },
             {
-                herf: "home",
+                herf: "mine",
                 img: "//img12.360buyimg.com/jrpmobile/jfs/t1/7491/15/4277/926/5bda5cb9E421a0e60/89ee14ce9daf4aab.png?width=60&height=60",
                 name: "我的",
             }],

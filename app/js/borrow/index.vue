@@ -1,11 +1,10 @@
 <template>
     <div>
         <Header />
-        <Mslider />
-        <Ada />
-        <Reward />
-        <Money />
-        <Adb />
+        <Islider />
+        <Welfare />
+        <Service />
+        <Footer />
         <Navbar cname="mfooter" />
     </div>
 </template>
@@ -14,22 +13,19 @@
 import Header from "../../js/public/header.vue"
 import Footer from "../../js/public/footer.vue"
 import Navbar from "../../js/public/navbar.vue"
-import Reward from "../home/reward.vue"
-import Money from "../home/money.vue"
-import Mslider from "./mslider.vue"
-import Ada from "./ada.vue"
-import Adb from "./adb.vue"
+import Islider from "./islider.vue"
+import Welfare from "./welfare.vue"
+import Service from "./service.vue"
+
 
 export default {
     components: {
         Header,
         Footer,
         Navbar,
-        Mslider,
-        Ada,
-        Adb,
-        Money,
-        Reward,
+        Islider,
+        Welfare,
+        Service,
     },
     data() {
         return {

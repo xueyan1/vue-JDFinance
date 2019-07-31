@@ -22,7 +22,7 @@ export default {
     },
     data() {
         return {
-            options: { slidesPerView: 2.6,
+            options: { slidesPerView: 2.3,
                 spaceBetween: 30,
                 freeMode: true },
             items: [{
@@ -52,8 +52,8 @@ export default {
         display: inline-block;
         width: 100%;
         img {
-          width: 100%;
-          height: 314px;
+          width: 210px;
+          height: 260px;
           display: block;
           border: 1px solid #fafafa;
         }
