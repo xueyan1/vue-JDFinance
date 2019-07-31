@@ -39,3 +39,30 @@
     - money // 理财精选
     - product // 新品推荐
     - life // 生活服务
+    - reward // 赏金任务
+
+- 赚钱 money
+
+  - 组件
+
+    - mslider // 轮播图
+
+## 业务开发流程
+
+- 技术选型
+  - 构建工具选择
+  - mvvm 框架选择
+    - vue
+    - react
+    - angular
+  - 模块化设计
+    - css 模块化
+    - js 模块化
+    - SPA 设计
+  - 自适应方案设计
+  - 代码维护及复用性设计
+- 业务开发
+- 测试验证
+- 发布上线
+
+![详细图]('/Users/liuyangongshouhu/Desktop/业务开发流程.png')
