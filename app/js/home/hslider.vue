@@ -6,7 +6,7 @@
             <div v-for="item in enters"
                  :key="item.img"
                  :class="$style.item">
-                <router-link :to="{name:item.herf}">
+                <router-link :to="{name:item.href}">
                     <img :src="item.img"
                          :alt="item.title">
                     <h4> {{ item.title }}</h4>
@@ -96,7 +96,7 @@ export default {
   }
   .item {
     width: 25%;
-
+    margin-bottom: 40px;
     text-align: center;
     img {
       display: inline-block;

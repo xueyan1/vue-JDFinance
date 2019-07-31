@@ -3,7 +3,7 @@
            title="ETC免费领">
         <section :class="$style.content">
             <router-link :to="{name:'home'}">
-                <img src="https://img12.360buyimg.com/jrpmobile/jfs/t1/37697/16/1334/187953/5cb44c65E5dbefe83/200ce71a4347aeec.png?width=750&height=200"
+                <img src="//img12.360buyimg.com/jrpmobile/jfs/t1/37697/16/1334/187953/5cb44c65E5dbefe83/200ce71a4347aeec.png?width=750&height=200"
                      alt="">
             </router-link>
         </section>
