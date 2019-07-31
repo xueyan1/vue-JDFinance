@@ -1,5 +1,5 @@
 <template>
-    <Panel :class="$style.panel"
+    <Panel :class="[$style.panel,cname]"
            title="公司信息">
         <ul :class="$style.content">
             <li>
@@ -38,6 +38,12 @@ export default {
     components: {
         Panel,
     },
+    props: {
+        cname: {
+            type: String,
+            default: "",
+        },
+    },
 }
 </script>
 
@@ -45,7 +51,7 @@ export default {
 @import "../../css/element.scss";
 .panel {
   @include panel;
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
   & > h4 {
     display: none;
   }

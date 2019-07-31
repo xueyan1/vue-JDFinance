@@ -2,9 +2,10 @@
     <div>
         <Header />
         <Hsilder />
+        <Money />
+        <Reward/>
         <Novice />
         <Borrow />
-        <Money />
         <Product />
         <Life />
         <Footer />
@@ -22,6 +23,7 @@ import Borrow from "./borrow.vue"
 import Money from "./money.vue"
 import Product from "./product.vue"
 import Life from "./life.vue"
+import Reward from "./reward.vue"
 
 export default {
     components: {
@@ -34,6 +36,7 @@ export default {
         Life,
         Footer,
         Navbar,
+        Reward,
     },
 
 }

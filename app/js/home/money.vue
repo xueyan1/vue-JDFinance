@@ -24,24 +24,24 @@ export default {
         return {
             items: [
                 {
-                    title: "定期理财",
-                    sub: "理财首选",
-                    rate: "5.60%",
-                    text: "历史年化回报率",
+                    title: "长乐盈",
+                    sub: "180天可质押",
+                    rate: "5.80%",
+                    text: "近1年历史年化投资回报率",
                 }, {
-                    title: "小白理财",
-                    sub: "理财首选",
-                    rate: "4.22%",
-                    text: "7日年化收益率",
+                    title: "京智0号",
+                    sub: "大数据赋能",
+                    rate: "6.00%",
+                    text: "近1年历史年化投资回报率",
                 }, {
-                    title: "月月盈",
-                    sub: "养老保障",
-                    rate: "5%",
-                    text: "七日年化收益率",
+                    title: "建信养老",
+                    sub: "1000起投",
+                    rate: "4.57%",
+                    text: "近7日年化收益",
                 }, {
-                    title: "小白基金",
-                    sub: "天天赚钱",
-                    rate: "4.27%",
+                    title: "基金小白",
+                    sub: "超短期",
+                    rate: "4.50%",
                     text: "7日年化收益率",
                 },
             ],
@@ -94,6 +94,7 @@ export default {
         line-height: 42px;
         color: #333;
         span {
+          margin-left: 4px;
           font-size: 22px;
           color: #ff5155;
           border: 1px solid #ff5155;

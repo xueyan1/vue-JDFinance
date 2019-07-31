@@ -1,7 +1,7 @@
 <template>
     <article>
         <slider :items="items"
-                :cname="$style.slider"/>
+                :cname="$style.slider" />
         <section :class="$style.list">
             <div v-for="item in enters"
                  :key="item.img"
@@ -50,12 +50,27 @@ export default {
                     title: "抢钢镚",
                 }, {
                     href: "home",
-                    img: "//img12.360buyimg.com/jrpmobile/jfs/t4618/115/2179710654/11347/bf520df/58ec9d84Nfd169001.png?width=132&height=132",
-                    title: "领京豆",
-                }, {
-                    href: "home",
                     img: "//img12.360buyimg.com/jrpmobile/jfs/t5488/298/1036263348/12073/b4f4de97/590ac8e8Ne9def22e.png?width=135&height=135",
                     title: "白条提额",
+                }, {
+                    href: "home",
+                    img: "//img12.360buyimg.com/jrpmobile/jfs/t1/520/34/950/3686/5b9239e3Eaaf5465c/8d8c35badacfc114.png?width=90&height=90",
+                    title: "工资理财",
+                },
+                {
+                    href: "home",
+                    img: "//img12.360buyimg.com/jrpmobile/jfs/t1/1216/39/659/4516/5b923b1cE5943d1c6/dabaf8b842f57eb9.png?width=90&height=90",
+                    title: "众筹",
+                },
+                {
+                    href: "home",
+                    img: "//img12.360buyimg.com/jrpmobile/jfs/t1/36242/13/119/12214/5cb06492E0c73a66f/a284f91242e27af1.png?width=90&height=90",
+                    title: "免费领京豆",
+                },
+                {
+                    href: "home",
+                    img: "//img12.360buyimg.com/jrpmobile/jfs/t1/23337/6/15445/8974/5cb064c2E0cadac1d/c533bfe4da578fe7.png?width=90&height=90",
+                    title: "免息红包",
                 },
             ], // 按钮的数据
         }
@@ -80,6 +95,8 @@ export default {
     text-decoration: none;
   }
   .item {
+    width: 25%;
+
     text-align: center;
     img {
       display: inline-block;
