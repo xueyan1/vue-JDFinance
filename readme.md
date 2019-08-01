@@ -46,6 +46,21 @@
   - 组件
 
     - mslider // 轮播图
+    - ada // 广告位
+    - adb
+
+- 借钱 borrow
+
+  - islider
+  - service
+  - welfare
+
+- 存钱 save
+
+  - sslider
+  - sign
+  - recommend
+  - more
 
 ## 业务开发流程
 
