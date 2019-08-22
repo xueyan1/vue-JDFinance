@@ -81,3 +81,5 @@
 - 发布上线
 
 ![详细图](/img/业务开发流程.png)
+#### 注意
+zh 如果node 版本高于8，安装过程中将出现gyp build err，将node-sass 的版本改到最新，执行yarn ，然后在 执行yarn start
